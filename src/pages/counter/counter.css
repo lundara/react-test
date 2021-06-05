@@ -1,0 +1,19 @@
+.container {
+    padding: 30px;
+}
+
+.counterWrap {
+    max-width: 250px;
+    text-align: center;
+}
+
+.counterText {
+    font-size: 24px;
+}
+
+.counterButton {
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}

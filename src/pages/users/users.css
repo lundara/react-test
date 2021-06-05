@@ -1,0 +1,19 @@
+.container {
+    padding: 30px;
+}
+.datatable {
+    margin-top: 30px;
+}
+
+.form-input {
+    margin-top: 15px;
+}
+.form-group {
+    padding: 15px 0px;
+}
+.input-text {
+    width: 250px;
+}
+.btn-save {
+    width: 250px;
+}
