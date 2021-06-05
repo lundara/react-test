@@ -3,7 +3,7 @@ import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 
 // LOAD STYLES
-import './counter.css';
+import './counter.scss';
 
 const CounterPage = () => {
     const [counter, setCounter] = useState(0);

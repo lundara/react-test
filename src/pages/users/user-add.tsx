@@ -1,15 +1,11 @@
 import { useState, useRef } from 'react';
-import axios from 'axios';
 import { useHistory } from "react-router-dom";
 import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
 import { Toast } from 'primereact/toast';
 
 // LOAD STYLES
-import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
-import './users.css';
+import './users.scss';
 import UsersService from './users-service';
 
 

@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 import { useHistory } from "react-router-dom";
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
@@ -9,10 +8,7 @@ import { Button } from 'primereact/button';
 import { classNames } from 'primereact/utils';
 
 // LOAD STYLES
-import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
-import './users.css';
+import './users.scss';
 
 // LOAD SERVICE
 import UsersService from './users-service';
